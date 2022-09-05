@@ -1,6 +1,5 @@
-namespace Hello World
-{
-    class Hello {
+namespace Hello World {
+        class Hello {
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello World")
