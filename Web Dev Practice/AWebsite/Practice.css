@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(52, 90, 102);
+}
+
+div{
+    padding: 100px;
+    width: 100px;
+    background-color: rgb(77, 131, 110);
+}
+
+.top-container{
+    background-color:rgb(84, 57, 110);
+}
+
+.middle-container{
+    background-color:cadetblue;
+    transform: translate(100%);
+    
+}
+
+.bottom-container{
+    
+}

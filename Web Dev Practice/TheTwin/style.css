@@ -1,0 +1,98 @@
+/*
+Things to work on:
+
+soda bubbles next to the sign.  You're an artist.  And handsome.
+*/
+
+*{
+    box-sizing: border-box; margin: 0; padding: 0;
+}
+
+html{
+    font-size: 16.5px;
+    font-family: "Poppins", sans-serif;
+    color: aliceblue;
+}
+
+body{
+    background: linear-gradient(to right bottom, rgb(114, 216, 157), rgb(24, 240, 255));
+    min-height: 100vh;
+    padding: 5vh;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    background-color: rgba(16, 62, 68, 0.7);
+    color:aliceblue;
+}
+
+header img{
+    max-width: 10rem;
+    min-width: 4rem;
+    border-radius: 50%;
+    flex: 4;
+}
+
+h1{
+    padding: 1rem; font-size: 3rem; flex: 4;
+}
+
+.dropdown{
+    position:relative; display: inline-block;
+}
+
+.navmenu{
+    display: none;
+    position: absolute;
+    background-color:rgb(24, 240, 255);
+    min-width: 16px;
+    box-shadow:0px 8px 16px 0px rgb(128, 128, 128);
+    padding: 2px;
+    z-index: 1;
+}
+
+.navmenu a{
+    display: block;
+    background-color: rgb(114, 216, 157);
+    padding: 2px;
+    margin: 3px;
+}
+
+.dropdown:hover .navmenu{
+    display: block;
+}
+
+nav{
+    flex: 1;
+}
+
+.parent_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    background-color: rgba(26, 89, 97, 0.5);
+}
+
+.menuSideText{
+    font-style: italic;
+}
+
+table{
+    width: auto;
+    height: auto;
+}
+
+.food_container{
+    flex: auto;
+    padding: 1rem;
+}
+
+footer{
+    padding: 3rem;
+}

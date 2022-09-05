@@ -1,0 +1,54 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 16.5;
+}
+
+h1{
+    text-align:center;
+    border-bottom:solid;
+    padding:5%;
+    background-color:rgb(26, 105, 95);
+}
+
+.HeaderNav{
+    display:block;
+    text-align:center;
+    background-color: rgb(152, 187, 174);
+}
+
+.HeaderNav ol{
+    list-style-type:none;
+}
+
+.HeaderNav li{
+    display:inline;
+    padding:5%;
+}
+
+article{
+    background-color: blueviolet;
+    text-align:left;
+    padding:5%;
+    float: left;
+}
+
+p{
+    margin: 1%;
+}
+
+#treebarn{
+    padding: 2%;
+    float:right;
+    max-width: 100%;
+    size:100%
+}
+
+footer{
+    text-align:center;
+    background-color: rgb(26, 105, 95);
+}
