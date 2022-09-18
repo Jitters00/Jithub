@@ -1,11 +1,16 @@
 import java.util.Scanner;
 
 public class App {
-    public static Scanner purpose;
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!  What is my purpose?");
-            purpose = new Scanner(System.in);
-            String meaning = purpose.nextLine();
-            System.out.println("I've always wanted " + meaning);
+        //This code will display a list of meals based on the list of ingredients provided by the user.
+
+        /*
+         * main:
+         * user inputs ingredients
+         * input ingredients into an array which is cleared each time the app is used
+         * the tempArray is compared against meal and side arrays.
+         * once all conditions for a entre or side are met, they are displayed. 
+         */
+
     }
 }
