@@ -38,11 +38,10 @@ public class CheatSheet {
         } else {
             block of code if neither is true;
         }
-        
-        For simple If statements:
+        */
+        //For simple If statements:
         string var = (x < y) ? "true" : "false";
         System.out.println(var);
-        */
 
         //Switch
         int day = 3

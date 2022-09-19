@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         //This code will display a list of meals based on the list of ingredients provided by the user.
-
         /* 
          * main:
          * user inputs ingredients
@@ -17,5 +16,17 @@ public class App {
          * input ingredients
          * break operation
          */
+        Scanner menuSelect = new Scanner(System.in);
+        System.out.println("Ingredients [I] or New Recipe [N]");
+        String selection = menuSelect.nextLine();
+        
+        if (selection == "N") {
+            Scanner userFood = new Scanner(System.in);
+            //Use scanner to fill recipe array.
+        } else if (selection == "I") {
+            //ingredient list loop.
+        } else {
+            System.out.println("error");
+        }
     }
 }
