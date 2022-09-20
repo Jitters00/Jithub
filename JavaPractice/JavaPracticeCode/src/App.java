@@ -6,13 +6,13 @@ public class App {
         /* 
          * main:
          * user inputs ingredients
-         * input ingredients into an array which is cleared each time the app is used
-         * the tempArray is compared against meal and side arrays.
+         * input ingredients into an list which is cleared each time the app is used
+         * the tempList is compared against meal and side list.
          * once all conditions for a entre or side are met, they are displayed.
          * 
          * class:
-         * user enters necessary ingredients into arrays for meals and sides
-         * input name of array
+         * user enters necessary ingredients into list for meals and sides
+         * input name of list
          * input ingredients
          * break operation
          */
@@ -22,7 +22,7 @@ public class App {
         
         if (selection == "N") {
             Scanner userFood = new Scanner(System.in);
-            //Use scanner to fill recipe array.
+            //Use scanner to fill recipe list.
         } else if (selection == "I") {
             //ingredient list loop.
         } else {
