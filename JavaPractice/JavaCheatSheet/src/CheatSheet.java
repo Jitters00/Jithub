@@ -39,12 +39,13 @@ public class CheatSheet {
             block of code if neither is true;
         }
         */
-        //For simple If statements:
-        string var = (x < y) ? "true" : "false";
+        //Simple If statements:
+        int x = 1, y = 2;
+        String var = (x < y) ? "true" : "false";
         System.out.println(var);
 
         //Switch
-        int day = 3
+        int day = 3;
         switch (day){
             case 1:{
                 System.out.println("Sunday");
