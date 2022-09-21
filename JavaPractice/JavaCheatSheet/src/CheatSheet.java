@@ -15,13 +15,12 @@ public class CheatSheet {
         System.out.print(b + " ");  //print will print variables on the same line.  Println includes a line break at the end of its output.
         System.out.println(c + " "); //Note the spaces.
         System.out.println(isTrue);
-
         int[] myNumbers = {1, 2, 3}; //Makes an array.
         String[] myCharacters = {"Jack", "Bob", "Tim"};
         System.out.println(myCharacters[0] + " " + myNumbers[2]); //Access the variables in your array like this, starting with 0.
 
         //Conditional Statements
-        //IF
+        //IF, ELSE, ELSE IF
         if(a < b) {
             System.out.println("a < b");
         }else if (b > a) { //else if checks another condition.
@@ -29,7 +28,7 @@ public class CheatSheet {
         }else {
             System.out.println("a > b");
         }
-
+        
         /*Essentially,
         if (condition) {
             if condition is true;
@@ -43,7 +42,7 @@ public class CheatSheet {
         string var = (x < y) ? "true" : "false";
         System.out.println(var);
 
-        //Switch
+        //SWITCH
         int day = 3
         switch (day){
             case 1:{
@@ -76,5 +75,15 @@ public class CheatSheet {
             }
         }
         //Don't forget the break keyword.
-    } 
+
+        //LOOPS
+        while (/*condition */) {
+            /*code here runs while condition is true*/
+        }
+
+        do {
+            /*code here runs once before checking the condition*/
+        }
+        while (/*condition */);
+    }   
 }
