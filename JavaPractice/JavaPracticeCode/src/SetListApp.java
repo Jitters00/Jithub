@@ -27,7 +27,7 @@ public class App {
         String song = newSong.nextLine();
         if (song = "") {
             while (song = "") {
-                System.out.println(knownSongs.get(math.random)); //print song title.  There's likely a need for more code here. math.random wont cut it.
+                System.out.println(knownSongs.get(0)); //print song title.  There's likely a need for more code here. math.random wont cut it.
             }
         }
         else {
