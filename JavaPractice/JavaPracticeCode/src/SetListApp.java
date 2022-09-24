@@ -10,22 +10,22 @@
 
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Random;
 
 public class SetListApp {
     public static void main(String[] args){
         ArrayList<String> knownSongs = new ArrayList<String>();
         Scanner newSong = new Scanner(System.in);
+        Random randomNumber = new Random();
             for ( ; ; ){
             String song = newSong.nextLine();
             switch (song) {
                 case "":
-                System.out.println(knownSongs.get(0 + 1));               //??? Try this.
+                System.out.println(knownSongs.get(randomNumber.nextInt(knownSongs.size())));
                 break;
                 default:
-                System.out.println("uhhhh");
                 knownSongs.add(song);
                 System.out.println(knownSongs.size());
-                System.out.println(knownSongs.get(0));
                 break;
             }
         }
